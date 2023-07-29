@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-redux/static/css/main.8a534a8a.css",
+    "main.js": "/react-redux/static/js/main.492e428a.js",
+    "static/media/Sign In Page Desktop.png": "/react-redux/static/media/Sign In Page Desktop.c0574fe06769296b2d13.png",
+    "index.html": "/react-redux/index.html",
+    "main.8a534a8a.css.map": "/react-redux/static/css/main.8a534a8a.css.map",
+    "main.492e428a.js.map": "/react-redux/static/js/main.492e428a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a534a8a.css",
+    "static/js/main.492e428a.js"
+  ]
+}
