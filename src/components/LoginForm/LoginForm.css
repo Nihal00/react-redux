@@ -1,0 +1,89 @@
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 444px;
+    font-size: 5rem;
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.welcome-tag {
+    font-size: 1rem;
+    color: #757575;
+    padding-bottom: 0.5rem;
+}
+
+.sign-in-title {
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.inner-container input {
+    padding: 1rem 0.5rem;
+    font-size: 1.4rem;
+    border: 1px solid #dedede;
+    border-radius: 0.8rem;
+}
+
+.inner-container input:focus {
+    outline: none;
+}
+
+.email-input {
+    padding-bottom: 1.8rem;
+}
+
+.password-input {
+    padding-bottom: 3.2rem;
+}
+.error {
+    align-self: center;
+    color: red;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding-block: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: #625bf7;
+    border: none;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.forgot-password {
+    align-self: center;
+    font-size: 1.3rem;
+    color: #625bf7;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    .SignIn {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .SignIn {
+        width: 330px;
+    }
+    .sign-in-title {
+        font-size: 2rem;
+    }
+}

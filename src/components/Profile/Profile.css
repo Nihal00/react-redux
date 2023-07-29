@@ -1,0 +1,93 @@
+.Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 444px;
+    font-size: 5rem;
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-card {
+    align-self: flex-start;
+    padding: 1.5rem 4rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.left-card p,
+.left-card p span {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.right-card {
+    margin-bottom: 2rem;
+}
+
+.button {
+    position: absolute;
+    right: 3rem;
+    bottom: 5rem;
+}
+
+.logout-btn {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: #625bf7;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 520px) {
+    .Profile {
+        width: 350px;
+    }
+
+    .left-card {
+        align-self: flex-start;
+        padding: 0 1rem;
+        display: flex;
+        width: 100%;
+    }
+
+    .left-card p,
+    .left-card p span {
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+
+    .button {
+        position: absolute;
+        right: 1rem;
+        bottom: 2rem;
+    }
+
+    .logout-btn {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Profile {
+        width: 330px;
+    }
+}

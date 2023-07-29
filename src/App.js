@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import LoginPage from "./components/LoginPage/Loginpage";
+import Profile from "./components/Profile/Profile";
+import { useSelector } from "react-redux/es/hooks/useSelector";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const log = useSelector((state) => state.log.status);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="bg-img">{log ? <Profile /> : <LoginPage />}</div>
     </div>
   );
-}
+};
 
 export default App;
