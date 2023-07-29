@@ -51,7 +51,7 @@ const SignInForm = () => {
 
       <div className="form">
         <div className="inner-container email-input">
-          <label htmlFor="email">Your email</label>
+          <label htmlFor="email">Username</label>
           <input
             type="text"
             name="text"
